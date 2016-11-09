@@ -19,6 +19,8 @@ struct Constant {
     
     struct SegueIdentifier {
         static let MY_VEHICLES = "segueMyVehicles"
+        static let ADD_VEHICLE = "segueAddVehicle"
+        static let EDIT_VEHICLE = "segueEditVehicle"
     }
     
     struct ColorTheme {

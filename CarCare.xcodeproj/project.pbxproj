@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1FC35D1DAC63DD003BAD35 /* VehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1FC35C1DAC63DD003BAD35 /* VehicleInfoViewController.swift */; };
 		7B918A801DABFE9600340713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B918A7F1DABFE9600340713 /* AppDelegate.swift */; };
 		7B918A821DABFE9600340713 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B918A811DABFE9600340713 /* HomeViewController.swift */; };
 		7B918A851DABFE9600340713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B918A831DABFE9600340713 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1FC35C1DAC63DD003BAD35 /* VehicleInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleInfoViewController.swift; sourceTree = "<group>"; };
 		7B918A7C1DABFE9600340713 /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B918A7F1DABFE9600340713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B918A811DABFE9600340713 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				7B918A9C1DAC096300340713 /* MyVehicleViewController.swift */,
+				7B1FC35C1DAC63DD003BAD35 /* VehicleInfoViewController.swift */,
 			);
 			name = MyVehicle;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				7B918A821DABFE9600340713 /* HomeViewController.swift in Sources */,
 				7B918A801DABFE9600340713 /* AppDelegate.swift in Sources */,
 				7B918A9D1DAC096300340713 /* MyVehicleViewController.swift in Sources */,
+				7B1FC35D1DAC63DD003BAD35 /* VehicleInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +338,7 @@
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
 				INFOPLIST_FILE = CarCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyleeyun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyleeyun.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -347,7 +351,7 @@
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
 				INFOPLIST_FILE = CarCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyleeyun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyleeyun.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
