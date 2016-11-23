@@ -4,7 +4,7 @@
 //
 //  Created by Andi Setiyadi on 10/10/16.
 //  Copyright © 2016 devhubs. All rights reserved.
-//
+
 
 import Foundation
 import CoreData
